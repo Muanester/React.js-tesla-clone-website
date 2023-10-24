@@ -19371,7 +19371,7 @@
             children: [
               (0, _t.jsx)("a", {
                 children: (0, _t.jsx)("img", {
-                  src: "../../images/logo.svg",
+                  src: "/images/logo.svg",
                   alt: "Tesla Logo",
                 }),
               }),
@@ -19515,7 +19515,7 @@
                       ],
                     }),
                   }),
-                  (0, _t.jsx)(qo, { src: "../../images/down-arrow.svg" }),
+                  (0, _t.jsx)(qo, { src: "/images/down-arrow.svg" }),
                 ],
               }),
             ],
@@ -19524,11 +19524,11 @@
         Bo = po.div(
           xo ||
             (xo = Ot([
-              '\n  width: 100vw;\n  height: 100vh;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-image: url("../../images/model-s.jpg");\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  background-image: ',
+              '\n  width: 100vw;\n  height: 100vh;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-image: url("/images/model-s.jpg");\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  background-image: ',
               ";\n",
             ])),
           function (e) {
-            return 'url("../../images/'.concat(e.bgimage, '")');
+            return 'url("/images/'.concat(e.bgimage, '")');
           }
         ),
         Ho = po.div(
